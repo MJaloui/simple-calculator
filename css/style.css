@@ -1,0 +1,92 @@
+/******************************************
+/* HOT GARBAGE - PLEASE DON'T MIMIC THIS CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+h1, h2, h3{
+  text-align: center;
+  color: black;
+}
+
+h1, h3{
+  border: 3px solid black;
+  background: white;
+}
+
+h1{
+  width: 350px;
+}
+
+h3{
+  width: 163px;
+}
+
+
+div h2{
+  border: 3px solid black;
+  background: rgb(77, 47, 8);
+  color: white;
+}
+img{
+  display: block;
+  height: 300px;
+  margin: 0 auto;
+}
+ul{
+  width: 201px;
+  height: 403px;
+  border: 3px solid black;
+  margin: 0 auto;
+  list-style: none;
+  padding: 0;
+}
+
+div, h2{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.buttons{
+  display: flex;
+  gap: .5rem;
+}
+
+li{
+  text-align: center;
+  width: 197px;
+  height: 56px;
+  border-top: 3px solid black;
+  border-right: 3px solid black;
+  border-left: 3px solid black;
+  background: rgb(77, 47, 8);
+  
+  
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+justify-content: center;
+align-items: center;
+background-image: url(https://hausandhues.com/cdn/shop/products/BlackHairstyleCollage12x16.png?v=1657220509&width=713);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    width: 49%;
+    height: 50%;
+
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

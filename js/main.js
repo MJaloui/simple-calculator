@@ -13,7 +13,7 @@ document.querySelector('#removeWashAndBlowout').addEventListener('click', remove
 document.querySelector('#removeDeepConditioning').addEventListener('click', removeDeepConditioning)
 document.querySelector('#resetCost').addEventListener('click', resetCost)
 
-
+// received some help from Mike, but mostly done from lecture example but made it different
 function washAndStyle() {
   total = total + 80
   document.querySelector('#placeToPutResult').innerText = total
